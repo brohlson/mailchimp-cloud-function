@@ -12,7 +12,7 @@ exports.mailchimpSubscribe = (req, res) => {
   let email = req.query.email || req.body.email;
 
   mailchimp
-    .post("/lists/346294c571/members", {
+    .post(`/lists/${LIST_ID}/members`, {
       email_address: email,
       status: "subscribed"
     })
