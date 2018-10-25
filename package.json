@@ -1,0 +1,7 @@
+{
+  "name": "mailchimp-cloud-function",
+  "version": "1.0.0",
+  "dependencies": {
+    "mailchimp-api-v3": "^1.12.0"
+  }
+}
